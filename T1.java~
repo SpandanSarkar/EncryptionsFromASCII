@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class T1{
+  public static void main(String [] args){
+    System.out.println("Enter a String");
+    String string = sc.nextLine();
+    System.out.println();
+    System.out.println("Enter the key");
+    int key = sc.nextInt();
+    encryption(string,key);
+  }
+  
+  private void encryption(String string, int key){
+  char[] stringToCharArray = string. toCharArray();
+  System.out.println(stringToCharArray[0]);
+  }
+}
